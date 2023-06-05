@@ -11,7 +11,7 @@ const cors = require('cors')
 dotenv.config()
 
 //Connection string
-mongoose.connect('mongodb+srv://goodnessmpumie:93N1UzUEbfIBMXdu@surveyprj.rftkbjy.mongodb.net/SurveyDB?retryWrites=true&w=majority',
+mongoose.connect('connectionString',
 { useNewUrlParser: true,
 useUnifiedTopology: true })
 .then(() => {
